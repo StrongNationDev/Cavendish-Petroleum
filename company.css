@@ -1,0 +1,148 @@
+/* Styles for the hero section */
+.aaa-hero-section {
+    background-image: url('images/hero_background.jpg'); /* Replace with your actual image path */
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 150px 0; /* Adjust padding as needed */
+    position: relative; /* For potential overlay */
+}
+
+.aaa-hero-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+}
+
+.aaa-hero-content h1 {
+    font-size: 3em; /* Adjust font size as needed */
+    margin-bottom: 10px;
+}
+
+.aaa-hero-content h2 {
+    font-size: 2em; /* Adjust font size as needed */
+    font-weight: normal;
+}
+
+/* Styles for the navigation */
+.aaa-main-nav {
+    background-color: white;
+    color: #333; /* Adjust text color */
+    text-align: center;
+    padding: 15px 0;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+.aaa-main-nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.aaa-main-nav li {
+    margin: 0 15px; /* Adjust spacing between links */
+}
+
+.aaa-main-nav a {
+    text-decoration: none;
+    color: #333; /* Adjust link color */
+    font-weight: bold;
+}
+
+.aaa-main-nav a:hover {
+    color: #007bff; /* Adjust hover color */
+}
+
+/* Optional: Add a visual indicator for the current page */
+.aaa-main-nav .active a {
+    color: #ff0000; /* Example active link color */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* footer block */
+
+.zzz-footer {
+    background-color: #fff;
+    padding: 40px 20px 20px;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    color: #333;
+    border-top: 1px solid #eaeaea;
+  }
+  
+  .zzz-footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: auto;
+    gap: 40px;
+  }
+  
+  .zzz-footer-column {
+    flex: 1;
+    min-width: 200px;
+  }
+  
+  .zzz-logo {
+    max-width: 80px;
+    margin-bottom: 15px;
+  }
+  
+  .zzz-footer-column h4 {
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .zzz-footer-column a {
+    display: block;
+    color: #0a1f44;
+    text-decoration: none;
+    margin-bottom: 6px;
+  }
+  
+  .zzz-footer-column a:hover {
+    text-decoration: underline;
+  }
+  
+  .zzz-social-icons {
+    margin-top: 10px;
+  }
+  
+  .zzz-social-icons a img {
+    width: 20px;
+    margin-right: 10px;
+    vertical-align: middle;
+  }
+  
+  .zzz-footer-bottom {
+    text-align: center;
+    padding-top: 20px;
+    color: #999;
+    font-size: 13px;
+  }
+  
