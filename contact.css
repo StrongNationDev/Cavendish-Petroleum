@@ -10,13 +10,13 @@ body {
 }
 
 .contact-section {
-    background-color: #fff;
+    background-color: #dadada;
     padding: 40px;
     border-radius: 8px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
     text-align: center;
-    width: 90%;
-    max-width: 960px;
+    width: 100%;
+    /* max-width: 960px; */
 }
 
 .contact-header h1 {
@@ -44,7 +44,7 @@ body {
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
     padding: 25px;
-    width: calc(33.33% - 40px); /* Adjust width for spacing */
+    width: calc(33.33% - 20px); /* Adjust width for spacing */
     box-sizing: border-box;
     text-align: center;
 }
@@ -135,15 +135,15 @@ body {
     padding: 30px;
     border-radius: 8px;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.08);
-    margin-top: 30px; /* Adjust spacing from the previous block */
-    text-align: left; /* Align text within the form */
+    margin-top: 30px;
+    text-align: left;
 }
 
 .contact-form-ggg-section h2 {
     color: #2c3e50;
     font-size: 1.8em;
     margin-bottom: 20px;
-    text-align: center; /* Center the form title */
+    text-align: center;
 }
 
 .contact-form-ggg {
@@ -174,7 +174,7 @@ body {
     color: #555;
     font-size: 0.9em;
     margin-bottom: 5px;
-    display: block; /* Ensure label takes full width */
+    display: block;
 }
 
 .form-group-ggg input[type="text"],
@@ -191,8 +191,8 @@ body {
 }
 
 .form-group-ggg select {
-    appearance: none; /* Remove default arrow */
-    background-image: url('images/dropdown_arrow.png'); /* Add your own arrow icon */
+    appearance: none;
+    background-image: url('images/dropdown_arrow.png');
     background-repeat: no-repeat;
     background-position: right 10px center;
     background-size: 16px;
@@ -239,13 +239,14 @@ body {
     font-size: 1em;
     cursor: pointer;
     transition: background-color 0.3s ease;
-    width: fit-content; /* Adjust width to content */
-    align-self: center; /* Center the button */
+    width: 500px;
+    /* width: fit-content; */
+    align-self: center;
     margin-top: 20px;
 }
 
 .submit-button-ggg:hover {
-    background-color: #1a252f;
+    background-color: #2039c5;
 }
 
 /* footer block */
@@ -257,6 +258,9 @@ body {
     font-size: 14px;
     color: #333;
     border-top: 1px solid #eaeaea;
+    width: 100%;
+    margin-top: 30px;
+    padding-left: 150px;
   }
   
   .zzz-footer-container {
@@ -283,6 +287,10 @@ body {
     margin-bottom: 10px;
   }
   
+  .zzz-footer-column p{
+    margin-bottom: 15px;
+  }
+
   .zzz-footer-column a {
     display: block;
     color: #0a1f44;
